@@ -148,7 +148,7 @@ See [SQL Analysis](sql/README.md) for query descriptions, input types, edge case
 |---|---|
 | [sql/](sql/) | Seven SQL scripts and the SQL analysis guide |
 | [data/leads_sample.csv](data/leads_sample.csv) | Two illustrative lead records showing the input structure |
-| [LICENSE](LICENSE) | MIT license |
+
 
 The committed CSV is not the complete dataset behind the dashboard. The full 30-lead register and ad-spend input are not included in the repository, so the sample alone cannot reproduce the reported totals.
 
