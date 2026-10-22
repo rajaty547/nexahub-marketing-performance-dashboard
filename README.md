@@ -132,16 +132,6 @@ The March date-filter recheck also confirmed a single monthly bar of 10 and serv
 
 These are descriptive findings from a small dataset, not evidence of measured business impact or causal effects.
 
-## Running the SQL
-
-1. Create a BigQuery dataset and load the lead and ad-spend inputs into `leads` and `ad_spend`.
-2. Replace `nexahub-analytics.marketing` in the scripts if using another project or dataset.
-3. Run [06_create_leads_summary_view.sql](sql/06_create_leads_summary_view.sql) and [07_create_channel_month_view.sql](sql/07_create_channel_month_view.sql).
-4. Connect each view to the appropriate Looker Studio components and configure the filters above.
-5. Reconcile lead counts, spend, and CPL against the source data before sharing the report.
-
-See [SQL Analysis](sql/README.md) for query descriptions, input types, edge cases, and validation SQL. Queries 01–04 are standalone exploratory analyses. Query 05 is retained as an earlier Google Ads example; query 07 supplies the current monthly CPL layer.
-
 ## Repository Contents
 
 | Path | Contents |
